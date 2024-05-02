@@ -1,0 +1,143 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+}
+
+header {
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333333;
+    font-weight: bold;
+}
+
+.auth a {
+    text-decoration: none;
+    color: #333333;
+    margin-left: 20px;
+}
+
+main {
+    margin-top: 100px; /* Ensure the content is not hidden behind the fixed header */
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    padding: 40px;
+    background-color: #ffffff;
+}
+
+.hero-text {
+    flex: 1;
+}
+
+.hero-text h1 {
+    font-size: 36px;
+    margin: 0;
+}
+
+.hero-text p {
+    margin: 10px 0 20px;
+    color: #777777;
+}
+
+.search-form {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group label {
+    margin-bottom: 5px;
+    color: #777777;
+}
+
+.form-group input,
+.form-group select {
+    padding: 10px;
+    border: 1px solid #dddddd;
+    border-radius: 5px;
+    font-size: 14px;
+}
+
+.search-button {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: #ffffff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hero-image img {
+    height: 300px;
+    border-radius: 10px;
+}
+
+.info-section {
+    display: flex;
+    justify-content: space-around;
+    padding: 40px 20px;
+    background-color: #ffffff;
+    margin: 20px 0;
+}
+
+.info-box {
+    flex: 1;
+    text-align: center;
+    margin: 0 10px;
+}
+
+.info-box h3 {
+    font-size: 20px;
+    color: #333333;
+}
+
+.info-box p {
+    color: #777777;
+}
